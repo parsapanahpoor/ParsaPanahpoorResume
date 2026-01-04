@@ -1,23 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11312.210 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{CE603973-E6D9-4408-AF7A-903D10AE4495}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{458071F0-4AF2-4C72-B765-F47EA395DF72}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{5C170111-2320-4EFA-A39B-B353469298F0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{79DAA65F-88DC-4D24-BEBC-37A5B4602FF3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Application", "Resume.Application\Resume.Application.csproj", "{46CCC4F8-B4DC-42A7-998E-647A294E7D18}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Domain", "Resume.Domain\Resume.Domain.csproj", "{D7FA198F-BBED-4124-9828-8306941BC1DA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Infra.Data", "Resume.Infra.Data\Resume.Infra.Data.csproj", "{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Web", "Resume.Web\Resume.Web.csproj", "{20387100-3A52-4E76-AFE3-5AF380AD1B10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaneshkarGroup5", "DaneshkarGroup5\DaneshkarGroup5.csproj", "{87B37AC7-C7B3-4816-B5F2-E679508908E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,31 +11,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46CCC4F8-B4DC-42A7-998E-647A294E7D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46CCC4F8-B4DC-42A7-998E-647A294E7D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46CCC4F8-B4DC-42A7-998E-647A294E7D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46CCC4F8-B4DC-42A7-998E-647A294E7D18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7FA198F-BBED-4124-9828-8306941BC1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7FA198F-BBED-4124-9828-8306941BC1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7FA198F-BBED-4124-9828-8306941BC1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7FA198F-BBED-4124-9828-8306941BC1DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{20387100-3A52-4E76-AFE3-5AF380AD1B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20387100-3A52-4E76-AFE3-5AF380AD1B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20387100-3A52-4E76-AFE3-5AF380AD1B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{20387100-3A52-4E76-AFE3-5AF380AD1B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B37AC7-C7B3-4816-B5F2-E679508908E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B37AC7-C7B3-4816-B5F2-E679508908E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B37AC7-C7B3-4816-B5F2-E679508908E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B37AC7-C7B3-4816-B5F2-E679508908E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{46CCC4F8-B4DC-42A7-998E-647A294E7D18} = {CE603973-E6D9-4408-AF7A-903D10AE4495}
-		{D7FA198F-BBED-4124-9828-8306941BC1DA} = {458071F0-4AF2-4C72-B765-F47EA395DF72}
-		{18DE15CC-D3D4-47EB-9978-FAE2A7B86B9C} = {5C170111-2320-4EFA-A39B-B353469298F0}
-		{20387100-3A52-4E76-AFE3-5AF380AD1B10} = {79DAA65F-88DC-4D24-BEBC-37A5B4602FF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {59A76703-F305-417C-B333-12EFDDDB5679}

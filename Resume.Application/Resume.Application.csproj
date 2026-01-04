@@ -9,9 +9,4 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Resume.Domain\Resume.Domain.csproj" />
-    <ProjectReference Include="..\Resume.Infra.Data\Resume.Infra.Data.csproj" />
-  </ItemGroup>
-
 </Project>
